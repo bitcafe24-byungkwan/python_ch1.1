@@ -27,5 +27,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('helloworld/', helloworld_view.hello),
-    path('helloworld/hello2/<int:id>', helloworld_view.hello2)
+    path('helloworld/hello2/<int:id>', helloworld_view.hello2),
+    path('helloworld/hello3', helloworld_view.hello3),
 ]
